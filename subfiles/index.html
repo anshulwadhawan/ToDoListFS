@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>List It Down</title>
+        <link rel="stylesheet" type="text/css" href="styling.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    </head>
+    <body>
+    <br>
+    <div align="center">
+        <div class="main" id="head">
+            <i class="fa fa-bars" aria-hidden="true"></i> TO DO <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <div align="center" >
+        <div class="main">
+            <br>
+            <div class="entertext">
+                <input type="text" placeholder="Enter task here" id="getValue" onkeydown="if(event.keyCode == 13)document.getElementById('done').click()">
+
+                <i class="fa fa-plus-circle" id="done" aria-hidden="true"></i>
+
+            </div>
+
+
+        </div>
+    </div>
+    <br><br>
+    <div align="center">
+        <div class="main" id="op">
+            <br>
+            <div id="output"></div>
+            <br>
+        </div>
+    </div>
+    <br>
+    <div align="center" id="footer">
+        <i class="fa fa-copyright" aria-hidden="true"></i> &nbsp;Designed by Anshul Wadhawan
+    </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

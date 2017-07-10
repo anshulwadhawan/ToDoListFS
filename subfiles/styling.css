@@ -1,0 +1,122 @@
+/**
+ * Created by anshul on 7/7/17.
+ */
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+}
+.main{
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 10px #5C626E;
+    background-color: white;
+    width: 900px;
+    overflow: auto;
+
+}
+#head{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 15vh;
+    text-shadow: 2px 2px 2px black;
+}
+input{
+    font-family: 'Nunito', sans-serif;
+    background: #f5f5f5;
+    border: none;
+    width: 85%;
+    letter-spacing: 2px;
+    color: #5C626E;
+    height: 50px;
+    padding-left: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    float: left;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.text{
+    font-family: 'Nunito', sans-serif;
+    background: #f5f5f5;
+    border: none;
+    width: 90%;
+    letter-spacing: 2px;
+    color: #5C626E;
+    height: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px black;
+    padding-top: 10px;
+    float: left;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+#output input{
+    width: 10%;
+    height: 25px;
+    float: left;
+    box-shadow: none;
+    margin-left: -10px;
+}
+#done{
+    font-size: 55px;
+    color: #64dd17  ;
+    float: left;
+    margin-left: 15px;
+    text-shadow: 2px 2px 2px black;
+}
+#done:hover{
+    cursor: pointer;
+    color: #76ff03     ;
+    transition: 0.4s;
+}
+#op{
+    text-align: left;
+}
+.fa.fa-minus-circle{
+    float: left;
+    font-size: 53px;
+    margin-left: 13px;
+    color: #d50000   ;
+    text-shadow: 2px 2px 2px black;
+
+
+}
+.fa.fa-minus-circle:hover{
+    cursor: pointer;
+    color: #FF1744;
+    transition: 0.4s;
+}
+
+.fa.fa-bars{
+    font-size: 15vh;
+    text-shadow: 2px 2px 2px black;
+}
+#footer{
+    color:white;
+}
+.fa.fa-minus-circle:hover,#done:hover{
+    animation-name:shake;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes shake{
+
+    0%{
+        transform: translate(-2px,-2px);
+    }
+    25%{
+        transform: translate(2px,2px);
+    }
+    50%{
+        transform: translate(2px,-2px);
+    }
+    75%{
+        transform: translate(-2px,2px);
+    }
+    100%{
+        transform: translate(-2px,-2px);
+    }
+
+}
